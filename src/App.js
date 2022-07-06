@@ -1,10 +1,9 @@
+import  Directory  from './components/directory/directory-item.component'
 
 function App() {
   return (
-    <div className="App">
-      hello from react 
-    </div>
-  );
+      <Directory />
+  )
 }
 
-export default App;
+export default App
